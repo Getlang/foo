@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Admin Login - Hi~Video</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="webapp/manage/assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="webapp/manage/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="webapp/manage/assets/css/style.css" rel="stylesheet">
+    <link href="webapp/manage/assets/css/style-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" type="text/css" href="customer/css/userLogin.css"/>
+      <script src="customer/js/jquery.js"></script>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <script type="text/javascript" src="customer/js/tip.js" ></script>
+      <script type="text/javascript" src="customer/js/toastr.js" ></script>
+      <link rel="stylesheet" href="customer/css/toastr.css" />
+  </head>
+
+  <body>
+
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+
+      <div class="main-agileinfo" id="pwd-login">
+          <h2 class="form-login-heading" >Hi视频后台登录</h2>
+          <form class="form-login" action="adminLogin.htm" method="post">
+              <div class="login-wrap">
+                  <input type="text" class="form-control" placeholder="User ID" name="adminid"  required autofocus>
+                  <br>
+                  <input type="password" class="form-control" name="password" placeholder="Password" required>
+                  <br>
+                  <button class="btn btn-theme btn-block" type="submit"><i class="fa fa-lock"></i>登录</button>
+                  <hr>
+              </div>
+          </form>
+      </div>
+      <div class="main-agileinfo" id="tel-login" style="display: none;">
+
+          </form>
+      </div>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="webapp/manage/assets/js/jquery.js"></script>
+    <script src="webapp/manage/assets/js/bootstrap.min.js"></script>
+
+    <!--BACKSTRETCH-->
+    <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+    <script type="text/javascript" src="webapp/manage/assets/js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("webapp/manage/assets/img/login-bg.jpg", {speed: 500});
+    </script>
+
+      <script src="customer/js/jquery.js"></script>
+      <script src="customer/js/userlogin.js"></script>
+      <script src="static/js/JquerySession.js"></script>
+  </body>
+</html>
