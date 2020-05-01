@@ -2,11 +2,13 @@ package dao;
 
 import entity.Barrage;
 import entity.BarrageExample;
-import entity.Video;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
+/**
+ * GTL
+ */
 public interface BarrageMapper {
     int countByExample(BarrageExample example);
 
