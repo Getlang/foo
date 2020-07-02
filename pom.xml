@@ -112,7 +112,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.35</version>
+			<version>8.0.16</version>
 		</dependency>
 
 		<!-- 引入oracle包的时候发现不能引入，原因是因为这个包要收费，maven是免费机构不可能为了某个包交钱 所以maven不能直接引入oracle包，需要我们手动打包到本地库，文献：https://www.cnblogs.com/bella-young/p/6518708.html 
