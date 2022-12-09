@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>foo Maven Webapp</name>
 	<properties>
-		<srping.version>3.0.1.RELEASE</srping.version>
+		<srping.version>6.0.0</srping.version>
 		<mybatis.version>3.2.8</mybatis.version>
 		<slf4j.version>1.7.12</slf4j.version>
 		<log4j.version>1.2.17</log4j.version>
